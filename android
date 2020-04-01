@@ -1,1 +1,37 @@
+App:
+Release:
+
+Bug:
+java.lang.RuntimeException
+com.facebook.AccessTokenTracker$CurrentAccessTokenBroadcastReceiver.onReceive
+
+Soluntion: problem on facebook login
+
+--------------------------------------------------------------------------------------------------
+
+version:Android 8.1
+count:1
+Bug:
+java.lang.NullPointerException: 
+at android.graphics.drawable.DrawableContainer$DrawableContainerState.createAllFutures (DrawableContainer.java:8
+
+Soluntion: some times happen due to InputText
+----------------------------------------------------------------------------------------------------
+version:Android 9
+count:
+Bug:
+com.facebook.react.common.JavascriptException: TypeError: null is not an object (evaluating 'u.subjects'), stack:
+v
+
+Soluntion: package._id ,subjects have to find and fix it and test
+
+----------------------------------------------------------------------------------------------------
+version:Android 9,Android 8.1
+device:Huawei Y7 Prime 2019 (HWDUB-Q),Huawei Honor 9 Lite (HWLLD-H),Oppo F7 (CPH1819),
+count:5
+Bug:
+signal 11 (SIGSEGV), code 1 (SEGV_MAPERR)
+libjsc.so
+
+Soluntion : apply https://github.com/react-native-community/jsc-android-buildscripts and need to test
 
