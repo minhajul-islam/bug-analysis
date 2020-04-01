@@ -5,8 +5,7 @@ Bug:
 java.lang.RuntimeException
 com.facebook.AccessTokenTracker$CurrentAccessTokenBroadcastReceiver.onReceive
 
-Soluntion: problem on facebook login
-
+Soluntion: problem on facebook login "react-native-fbsdk": "^1.0.4" --> 1.1.2
 --------------------------------------------------------------------------------------------------
 
 version:Android 8.1
