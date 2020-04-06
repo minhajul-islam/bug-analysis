@@ -22,7 +22,12 @@ Bug:
 com.facebook.react.common.JavascriptException: TypeError: null is not an object (evaluating 'u.subjects'), stack:
 v
 
-Soluntion: package._id ,subjects have to find and fix it and test
+Soluntion:
+1.Maye be api response not found. package._id ,subjects have to find and fix it and test
+2.add to manifest
+<application
+    android:usesCleartextTraffic="true"
+</application>
 
 ----------------------------------------------------------------------------------------------------
 version:Android 9,Android 8.1
