@@ -23,8 +23,10 @@ com.facebook.react.common.JavascriptException: TypeError: null is not an object 
 v
 
 Soluntion:
-1.Maye be api response not found. package._id ,subjects have to find and fix it and test
-2.add to manifest
+1.Maye be api response not found. Maye be data null before render.Need to check null/undefiend on variable package._id , subjects. have to find and fix it and test
+
+Or Api not working on Android 9
+2.Need to add to manifest
 <application
     android:usesCleartextTraffic="true"
 </application>
