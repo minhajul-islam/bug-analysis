@@ -27,3 +27,15 @@ subprojects {
         incremental true
         javaMaxHeapSize "12g"
     }
+
+
+
+2.clean
+https://stackoverflow.com/questions/23025433/how-to-clear-gradle-cache/23029580
+rm -rf $HOME/.gradle/caches/
+./gradlew cleanBuildCache
+
+cd android &&./gradlew clean && cd ../
+
+3.Release
+./gradlew app:assembleRelease
